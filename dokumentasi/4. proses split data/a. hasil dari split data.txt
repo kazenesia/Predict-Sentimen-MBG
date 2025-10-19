@@ -1,0 +1,22 @@
+Distribusi kelas sebelum split:
+label_encoded
+Negatif    -1    33.333333
+Netral      0    33.333333
+Positif     1    33.333333
+Name: proportion, dtype: float64
+
+Jumlah data train: 2400, test: 600
+
+Train distribution:
+sentiment_manual
+positif    800
+negatif    800
+netral     800
+Name: count, dtype: int64
+
+Test distribution:
+sentiment_manual
+positif    200
+netral     200
+negatif    200
+Name: count, dtype: int64

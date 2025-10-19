@@ -1,0 +1,48 @@
+======================================================================
+ANALISIS KOMPARATIF ANTAR SENTIMEN
+======================================================================
+
+1. ANALISIS PANJANG TEKS
+----------------------------------------------------------------------
+
+Sentimen     Rata-rata    Median     Min      Max
+----------------------------------------------------------------------
+Positif      31.4         18         1        355
+Negatif      12.6         7          1        275
+Netral       25.4         15         1        763
+
+2. PERFORMA PADA TEKS PENDEK VS PANJANG
+----------------------------------------------------------------------
+
+Kategori Panjang          Jumlah     Conf Mean    Sentimen Dominan
+----------------------------------------------------------------------
+Sangat Pendek (=10)       2053       0.8332       Netral
+Pendek (11-20)            1816       0.8662       Netral
+Sedang (21-50)            1636       0.8521       Netral
+Panjang (>50)             790        0.8535       Netral
+
+3. ANALISIS KATA UNIK PER SENTIMEN
+----------------------------------------------------------------------
+
+Kata yang DOMINAN di Sentimen Positif:
+  semoga: 187 kali
+  bagus: 147 kali
+  kasih: 145 kali
+  sehat: 116 kali
+
+Kata yang DOMINAN di Sentimen Negatif:
+  -
+
+Kata yang DOMINAN di Sentimen Netral:
+  bergizi: 559 kali
+  makanan: 524 kali
+  ribu: 402 kali
+  gizi: 330 kali
+  susu: 298 kali
+  rupiah: 293 kali
+  tahu: 257 kali
+  badan: 229 kali
+  daerah: 215 kali
+  pakai: 202 kali
+
+======================================================================

@@ -1,0 +1,103 @@
+============================================================
+ANALISIS KASUS MENARIK
+============================================================
+
+1. PREDIKSI DENGAN CONFIDENCE TERTINGGI:
+
+Top 5 Positif:
+  [0.9989] lah kan memang nikahan biasanya dikasih makan [moai]...
+  [0.9989] wah om setahu saya dewan perwakilan rakyat kalau kesini tidak makan bakso saja om kalau hanya itu sa...
+  [0.9989] nanti pintarnya cuma pas senin rabu jumat om[moai]...
+  [0.9988] terimakasih 58 persen oke gas oke gas [zany face]...
+  [0.9986] saya memilih pasangan calon 03 liat cuma 16 persen malu benar seperti baterai yang lemah tidak apa a...
+
+Top 5 Negatif:
+  [0.9975] hahahaha kecoak yang canggih pada titik ini pasti ini sindiran kan...
+  [0.9944] maka pemerintah secara terbuka menghina kita hahahaha bisa bisanya ketua dewan perwakilan daerah mem...
+  [0.9937] gass dikritik malah mengolok yee kamu yang goblok prabowo...
+  [0.9909] om deddy marah marah...
+  [0.9888] belum tahu saja ada yang harus bayar kalau tidak bayar tidak dapat makan bergizi gratis makan bergiz...
+
+2. PREDIKSI DENGAN CONFIDENCE RENDAH (Perlu Review):
+
+  Prediksi: netral (Confidence: 0.0000)
+  Prob: Pos=0.330 | Neg=0.330 | Net=0.340
+  Text: saya malah bingung disini pada bilang sekolah gratis selama saya sama adik saya sekolah selalu bayar sumbangan pembinaan pendidikan kok...
+
+  Prediksi: netral (Confidence: 0.0000)
+  Prob: Pos=0.330 | Neg=0.330 | Net=0.340
+  Text: bukan mengalami kemunduran lebih kearah sekolah negeri ada yang masih pakai sistem sumbangan pembinaan pendidikan sampai sekarang saya dari sekolah da...
+
+  Prediksi: netral (Confidence: 0.0000)
+  Prob: Pos=0.330 | Neg=0.330 | Net=0.340
+  Text: justru ada orang luar negeri sana ada yang setuju sekolah itu bagusnya berseragam sih untuk meminimalisir tindakan perundungan karena latar sosial yan...
+
+  Prediksi: netral (Confidence: 0.0000)
+  Prob: Pos=0.330 | Neg=0.330 | Net=0.340
+  Text: sepertinya waktu itu sempat sekolah dasar gratis secara nasional terus di unggulkan sama jakarta era ahok atau sudah anies kalau di jakarta gratis sam...
+
+  Prediksi: netral (Confidence: 0.0000)
+  Prob: Pos=0.330 | Neg=0.330 | Net=0.340
+  Text: sayangnya program 10 tahun tapi belum rata satu indonesia dan malah ada yang di pungutan liar adalah suatu kemunduran bagi saya...
+
+  Prediksi: netral (Confidence: 0.0000)
+  Prob: Pos=0.330 | Neg=0.330 | Net=0.340
+  Text: kalau adu pamer setelan sampai membuat perpecahan better tidak berteman sama orang narsis maaf saja kalau konteks indonesia apalagi daerah terpencil j...
+
+  Prediksi: netral (Confidence: 0.0000)
+  Prob: Pos=0.330 | Neg=0.330 | Net=0.340
+  Text: makan bergizi gratis memang bermasalah banget sampai ke vendor faktur vendor pertama juga belum cair padahal sudah lebaran...
+
+  Prediksi: netral (Confidence: 0.0000)
+  Prob: Pos=0.330 | Neg=0.330 | Net=0.340
+  Text: kejamnya...
+
+  Prediksi: netral (Confidence: 0.0000)
+  Prob: Pos=0.330 | Neg=0.330 | Net=0.340
+  Text: rata rata nasib pegawai pemerintahan yang nama lembaganya tidak ada kata kunci uang...
+
+  Prediksi: netral (Confidence: 0.0000)
+  Prob: Pos=0.330 | Neg=0.330 | Net=0.340
+  Text: tata bukan nama sebenarnya terpaksa menjual motornya untuk memenuhi kebutuhan sehari hari ia merupakan staf di satuan pelayanan pemenuhan gizi satuan ...
+
+3. KASUS AMBIGUOUS (Probabilitas Mirip):
+
+  Prediksi: netral (Diff: 0.0000)
+  Prob: Pos=0.073 | Neg=0.463 | Net=0.463
+  Text: keduluan sama temannya prabowo kamu...
+
+  Prediksi: positif (Diff: 0.0007)
+  Prob: Pos=0.485 | Neg=0.030 | Net=0.485
+  Text: apakah ini postingan propaganda prabowo serius bisa bisanya ngomong makan gratis program bagus negara kita masih banyak hal yang kurang daripada nguru...
+
+  Prediksi: netral (Diff: 0.0012)
+  Prob: Pos=0.498 | Neg=0.003 | Net=0.499
+  Text: yah kalau daerah tidak gratisan sumbangan pembinaan pendidikan ada [grinning face]maka saya setuju sekolah gratis seluruh indonesia bukan makan gratis...
+
+  Prediksi: negatif (Diff: 0.0012)
+  Prob: Pos=0.241 | Neg=0.380 | Net=0.379
+  Text: ya gila saja sih dijanjikan pas jam istirahat pertama 10 pagi datangnya jam setengah 3 sore padahal katanya dapur pada mulai pagi subuh pantas basi...
+
+  Prediksi: positif (Diff: 0.0013)
+  Prob: Pos=0.499 | Neg=0.003 | Net=0.498
+  Text: di jakarta sekarang sih sudah susah banget ya kalau 15 ribu mau dapat nasi satu menu protein ikan daging telur dan satu menu sayuran di warung tegal b...
+
+  Prediksi: netral (Diff: 0.0015)
+  Prob: Pos=0.496 | Neg=0.006 | Net=0.498
+  Text: saya tidak tahu tapi ini terlihat lezat bagi saya saat itu kamu perlu mengeluarkan uang untuk mendapatkan ini di sekolah berstandar internasional...
+
+  Prediksi: netral (Diff: 0.0018)
+  Prob: Pos=0.495 | Neg=0.008 | Net=0.497
+  Text: daging nya dari ampas tahu ramah untuk vegetarian dan ramah diharga [thumbs up]...
+
+  Prediksi: positif (Diff: 0.0022)
+  Prob: Pos=0.482 | Neg=0.039 | Net=0.479
+  Text: saya tidak tahu tapi setahuku muridnya lebih milih jajan di depan gerbang begitu...
+
+  Prediksi: positif (Diff: 0.0022)
+  Prob: Pos=0.415 | Neg=0.413 | Net=0.171
+  Text: heran kok tidak ada yang bisa menghentikan korupsi korupsi yang ada masa tidak bisa diterapkan dimiskinkan potong tangan dan hukuman mati kayak di neg...
+
+  Prediksi: netral (Diff: 0.0027)
+  Prob: Pos=0.497 | Neg=0.003 | Net=0.500
+  Text: kalau sudah ada kerjaan yang layak pastinya akan memberikan makanan bergizi buat keluarganya pointnya disitu jadi pemerintah tidak usah ribet buat mak...

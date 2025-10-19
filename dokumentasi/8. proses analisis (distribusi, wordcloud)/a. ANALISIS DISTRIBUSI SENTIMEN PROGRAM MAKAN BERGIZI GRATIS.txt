@@ -1,0 +1,77 @@
+======================================================================
+ANALISIS DISTRIBUSI SENTIMEN PROGRAM MAKAN BERGIZI GRATIS
+Dataset: 6,000 Komentar Reddit (2024-2025)
+======================================================================
+
+?? 1. DISTRIBUSI SENTIMEN
+----------------------------------------------------------------------
+
+Kategori        Jumlah       Persentase      Visual
+----------------------------------------------------------------------
+Positif         2147          34.11%        ¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
+Negatif         406            6.45%        ¦¦¦
+Netral          3742          59.44%        ¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
+
+
+?? 2. ANALISIS CONFIDENCE SCORE
+----------------------------------------------------------------------
+
+Statistik Keseluruhan:
+  Rata-rata    : 0.8502
+  Median       : 0.9332
+  Std Deviasi  : 0.1777
+  Min          : 0.0000
+  Max          : 0.9985
+
+Statistik per Kategori Sentimen:
+Sentimen     Mean       Median     Std Dev    Min        Max
+----------------------------------------------------------------------
+Positif      0.8280     0.8873     0.1596     0.3560     0.9982
+Negatif      0.7120     0.7172     0.1852     0.3470     0.9975
+Netral       0.8779     0.9650     0.1780     0.0000     0.9985
+
+
+?? 3. DISTRIBUSI BERDASARKAN CONFIDENCE THRESHOLD
+----------------------------------------------------------------------
+
+Kategori             Range           Jumlah     Persentase
+----------------------------------------------------------------------
+Sangat Tinggi        [0.9 - 1.0]     3605        57.27%
+Tinggi               [0.8 - 0.9]     814         12.93%
+Sedang               [0.7 - 0.8]     601          9.55%
+Rendah               [0.0 - 0.7]     1275        20.25%
+
+
+?? 4. ANALISIS KASUS LOW CONFIDENCE (<0.7)
+----------------------------------------------------------------------
+
+Total kasus low confidence: 1275 (20.25%)
+
+Distribusi sentimen pada kasus low confidence:
+  Positif: 505 kasus
+  Negatif: 192 kasus
+  Netral: 578 kasus
+
+5 Contoh kasus low confidence:
+
+  1. Prediksi: NETRAL (conf: 0.0000)
+     Prob: Pos=0.330 | Neg=0.330 | Net=0.340
+     Text: saya malah bingung disini pada bilang sekolah gratis selama saya sama adik saya sekolah selalu bayar sumbangan pembinaan...
+
+  2. Prediksi: NETRAL (conf: 0.0000)
+     Prob: Pos=0.330 | Neg=0.330 | Net=0.340
+     Text: bukan mengalami kemunduran lebih kearah sekolah negeri ada yang masih pakai sistem sumbangan pembinaan pendidikan sampai...
+
+  3. Prediksi: NETRAL (conf: 0.0000)
+     Prob: Pos=0.330 | Neg=0.330 | Net=0.340
+     Text: justru ada orang luar negeri sana ada yang setuju sekolah itu bagusnya berseragam sih untuk meminimalisir tindakan perun...
+
+  4. Prediksi: NETRAL (conf: 0.0000)
+     Prob: Pos=0.330 | Neg=0.330 | Net=0.340
+     Text: sepertinya waktu itu sempat sekolah dasar gratis secara nasional terus di unggulkan sama jakarta era ahok atau sudah ani...
+
+  5. Prediksi: NETRAL (conf: 0.0000)
+     Prob: Pos=0.330 | Neg=0.330 | Net=0.340
+     Text: sayangnya program 10 tahun tapi belum rata satu indonesia dan malah ada yang di pungutan liar adalah suatu kemunduran ba...
+
+======================================================================

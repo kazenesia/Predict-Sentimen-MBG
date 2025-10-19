@@ -1,0 +1,72 @@
+======================================================================
+TABEL RINGKASAN UNTUK LAPORAN
+======================================================================
+
+?? TABEL 1: DISTRIBUSI SENTIMEN HASIL PREDIKSI
+----------------------------------------------------------------------
+Kategori Sentimen  Jumlah Komentar  Persentase (%)
+          Positif             2147       34.106434
+          Negatif              406        6.449563
+           Netral             3742       59.444003
+            Total             6295      100.000000
+
+
+?? TABEL 2: STATISTIK CONFIDENCE SCORE PER SENTIMEN
+----------------------------------------------------------------------
+   Sentimen   Mean Median Std Dev    Min    Max
+    Positif 0.8280 0.8873  0.1596 0.3560 0.9982
+    Negatif 0.7120 0.7172  0.1852 0.3470 0.9975
+     Netral 0.8779 0.9650  0.1780 0.0000 0.9985
+Keseluruhan 0.8502 0.9332  0.1777 0.0000 0.9985
+
+
+?? TABEL 3: DISTRIBUSI BERDASARKAN CONFIDENCE THRESHOLD
+----------------------------------------------------------------------
+     Kategori Range Score  Jumlah Persentase (%)
+Sangat Tinggi [0.9 - 1.0]    3605          57.27
+       Tinggi [0.8 - 0.9]     814          12.93
+       Sedang [0.7 - 0.8]     601           9.55
+       Rendah [0.0 - 0.7]    1275          20.25
+
+
+?? TABEL 4: TOP 10 KATA KUNCI PER SENTIMEN
+----------------------------------------------------------------------
+
+POSITIF:
+ Ranking    Kata  Frekuensi
+       1   makan        866
+       2    buat        587
+       3  gratis        538
+       4 sekolah        535
+       5    tapi        534
+       6    saja        532
+       7   orang        505
+       8    jadi        468
+       9    anak        467
+      10 program        376
+
+NEGATIF:
+ Ranking   Kata  Frekuensi
+       1  makan         54
+       2  orang         45
+       3   face         37
+       4   anak         34
+       5   kamu         33
+       6   saja         31
+       7   buat         31
+       8   sama         30
+       9   jadi         27
+      10 anjing         25
+
+NETRAL:
+ Ranking    Kata  Frekuensi
+       1   makan       1132
+       2  gratis        768
+       3 sekolah        693
+       4    saja        647
+       5 bergizi        559
+       6    jadi        548
+       7 makanan        524
+       8    tapi        494
+       9    anak        492
+      10    sama        487

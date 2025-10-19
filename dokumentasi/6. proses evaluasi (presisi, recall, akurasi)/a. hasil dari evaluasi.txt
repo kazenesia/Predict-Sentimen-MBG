@@ -1,0 +1,47 @@
+=== Classification Report ---- indolem/indobert-base-uncased ===
+              precision    recall  f1-score   support
+
+     positif       1.00      0.99      1.00       200
+     negatif       0.99      1.00      0.99       200
+      netral       0.99      0.98      0.99       200
+
+    accuracy                           0.99       600
+   macro avg       0.99      0.99      0.99       600
+weighted avg       0.99      0.99      0.99       600
+
+Device set to use cuda:0
+Text: semoga ini menjadi tiket untuk kemajuan lebih lanjut dalam pembangunan nasional kita amin
+Prediction: positif (confidence: 0.9949)
+
+Text: pihak sekolah main aman bukan goblok
+Prediction: negatif (confidence: 0.9150)
+
+Text: ya kalau harus bawa lauk dari rumah biar kenyang gagal dong programnya
+Prediction: positif (confidence: 0.9689)
+
+
+
+
+=== Evaluasi pada Test Set ===
+{'eval_loss': 0.059211477637290955, 'eval_accuracy': 0.99, 'eval_f1': 0.9899998753101659, 'eval_precision': 0.9900243793223543, 'eval_recall': 0.99, 'eval_runtime': 4.35, 'eval_samples_per_second': 137.93, 'eval_steps_per_second': 4.368, 'epoch': 5.0}
+
+=== Classification Report ---- indobenchmark/indobert-base-p1 ===
+              precision    recall  f1-score   support
+
+     positif       0.99      0.99      0.99       200
+     negatif       0.99      0.99      0.99       200
+      netral       0.99      0.98      0.99       200
+
+    accuracy                           0.99       600
+   macro avg       0.99      0.99      0.99       600
+weighted avg       0.99      0.99      0.99       600
+
+Device set to use cuda:0
+Text: ingat makan bergizi itu kunci hidup sehat jadi semoga program ini bisa jadi harapan generasi muda selanjutnya
+Prediction: positif (confidence: 0.9898)
+
+Text: makanan bangsat goblok
+Prediction: negatif (confidence: 0.9827)
+
+Text: mungkin bantuan operasional sekolah yang tidak tepat sasaran atau karena sekolah di papua lebih mahal karena logistik
+Prediction: netral (confidence: 0.9733)

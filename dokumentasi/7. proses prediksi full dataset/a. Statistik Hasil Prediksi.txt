@@ -1,0 +1,32 @@
+============================================================
+STATISTIK HASIL PREDIKSI
+============================================================
+
+1. DISTRIBUSI SENTIMEN:
+
+Sentimen     Jumlah     Persentase
+-----------------------------------
+Positif      2147        34.11%
+Negatif      406          6.45%
+Netral       3742        59.44%
+
+2. STATISTIK CONFIDENCE SCORE:
+Rata-rata confidence: 0.8502
+Median confidence:    0.9332
+Min confidence:       0.0000
+Max confidence:       0.9985
+Std deviation:        0.1777
+
+3. CONFIDENCE SCORE PER SENTIMEN:
+Positif: Mean=0.8280, Median=0.8873
+Negatif: Mean=0.7120, Median=0.7172
+Netral: Mean=0.8779, Median=0.9650
+
+4. PREDIKSI DENGAN CONFIDENCE RENDAH (<0.7):
+Jumlah: 1275 (20.25%)
+Distribusi:
+predicted_sentiment
+netral     578
+positif    505
+negatif    192
+Name: count, dtype: int64

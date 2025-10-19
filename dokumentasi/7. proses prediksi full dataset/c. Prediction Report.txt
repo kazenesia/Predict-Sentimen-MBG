@@ -1,0 +1,43 @@
+
+======================================================================
+
+LAPORAN HASIL PREDIKSI SENTIMEN
+
+Dataset: 6,000 Data Komentar
+
+Model: IndoBERT Fine-tuned (Accuracy: 99.33%)
+======================================================================
+
+
+
+1. DISTRIBUSI SENTIMEN
+   
+   - Positif: 2,147 data (34.11%)
+
+   - Negatif: 406 data (6.45%)
+
+   - Netral:  3,742 data (59.44%)
+
+
+
+2. KUALITAS PREDIKSI
+   
+   - Rata-rata Confidence Score: 0.8502
+
+   - Median Confidence Score:    0.9332
+
+   - Prediksi High Confidence (>0.9): 3,605 (57.27%)
+
+   - Prediksi Low Confidence (<0.7):  10 (0.16%)
+
+
+
+3. KESIMPULAN
+   Model berhasil memprediksi sentimen untuk seluruh dataset dengan
+   tingkat kepercayaan yang tinggi. Mayoritas prediksi memiliki
+   confidence score > 0.9, menunjukkan model sangat yakin dengan
+   prediksinya.
+
+
+
+======================================================================
